@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../Css/style_acc.css">
+</head>
+
+<body>
+    <div class="sidebar">
+
+        <div class="breukh">
+            <p class="bindeu">Breukh School</p>
+        </div>
+        <ul>
+            <li><a >Niveau</a></li>
+            <li><a href="">Classes</a></li>
+            <li><a href="#">Eleves</a></li>
+            <li><a href="#">azerty</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+
+        <div class="btn-ajt-niv">
+            <style>
+        /* Style du modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 400px;
+        }
+
+        .modal-header h2 {
+            margin-top: 0;
+        }
+
+        .modal-body input {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 5px;
+        }
+
+        .modal-footer {
+            text-align: right;
+        }
+
+        .modal-footer button {
+            padding: 8px 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .modal-footer button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Exemple de Modal - Ajout de niveau</h2>
+
+    <!-- Bouton pour ouvrir le modal -->
+    <button onclick="document.getElementById('myModal').style.display='block'">Ajouter un niveau</button>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Ajout de niveau</h2>
+            </div>
+            <div class="modal-body">
+                <input type="text" placeholder="Nom du niveau">
+                <input type="text" placeholder="Description du niveau">
+            </div>
+            <div class="modal-footer">
+                <button onclick="document.getElementById('myModal').style.display='none'">Ajouter</button>
+                <button onclick="document.getElementById('myModal').style.display='none'">Annuler</button>
+            </div>
+        </div>
+    </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Niveau</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>   <a href=""></a> CI</td>
+                <td>Classe d'Initiation</td>
+            </tr>
+            <tr>
+                <td>CP</td>
+                <td>Cours Préparatoire</td>
+            </tr>
+            <tr>
+                <td>CE1</td>
+                <td>Cours Élémentaire 1ère année</td>
+            </tr>
+            <tr>
+                <td>CE2</td>
+                <td>Cours Élémentaire 2ème année</td>
+            </tr>
+            <tr>
+                <td>CM1</td>
+                <td>Cours Moyen 1ère année</td>
+            </tr>
+            <tr>
+                <td>CM2</td>
+                <td>Cours Moyen 2ème année</td>
+            </tr>
+            <tr>
+                <td>6ème</td>
+                <td>6ème année du collège</td>
+            </tr>
+            <tr>
+                <td>5ème</td>
+                <td>5ème année du collège</td>
+            </tr>
+            <tr>
+                <td>4ème</td>
+                <td>4ème année du collège</td>
+            </tr>
+            <tr>
+                <td>3ème</td>
+                <td>3ème année du collège</td>
+            </tr>
+            <tr>
+                <td>Seconde</td>
+                <td>Classe de seconde</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

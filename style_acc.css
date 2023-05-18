@@ -1,0 +1,67 @@
+/* Styles pour la barre latérale */
+.sidebar {
+  width: 200px;
+  background-color: rgb(5, 36, 36);
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.breukh {
+  height: 10%;
+  color: aliceblue;
+  font-size: 2.1rem;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.2rem;
+}
+
+.sidebar ul li a:hover {
+  color: #666;
+}
+
+/* Styles pour le contenu de la page */
+.content {
+  margin-left: 200px;
+  /* la même largeur que la barre latérale */
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
